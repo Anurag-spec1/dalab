@@ -24,3 +24,8 @@ print(countries_df)
 countries_df.rename(columns={"Population":"Pop","Capital":"Cap"},inplace=True)
 
 print(countries_df)
+
+
+countries_df.drop("Cap",axis=1,inplace=True)
+
+print(countries_df)
