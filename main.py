@@ -13,3 +13,5 @@ print(countries_df)
 
 print(countries_df.head())
 print(countries_df.tail())
+
+print(countries_df.loc["India","Population"])
