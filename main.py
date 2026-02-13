@@ -19,3 +19,8 @@ print(countries_df.loc["India","Population"])
 countries_df["GDP"]=[2.87, 21.43, 14.34, 2.71, 5.08, 2.83, 3.86]
 
 print(countries_df)
+
+
+countries_df.rename(columns={"Population":"Pop","Capital":"Cap"},inplace=True)
+
+print(countries_df)
