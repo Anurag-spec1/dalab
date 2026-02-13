@@ -29,3 +29,6 @@ print(countries_df)
 countries_df.drop("Cap",axis=1,inplace=True)
 
 print(countries_df)
+
+countries_df.sort_values(by="Pop") #sort only 5 rows
+print(countries_df)
