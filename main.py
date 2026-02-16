@@ -1,5 +1,6 @@
 # create a dictioary having fields Country,Capital,Population
 
+import utils.session
 import pandas as pd
 
 data ={
