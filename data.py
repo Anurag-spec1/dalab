@@ -1,12 +1,3 @@
-# //create a dataset of your class 
-# a.find the best student on the basis of marks
-# b.find maximum marks in data analytics and print the name of student 
-# c.replace the null value with mean
-# d.find the average of your class in da
-# e.print first five rows of your dataset
-# f.print last ew column of the data structure
-
-
 import pandas as pd
 import numpy as np
 
