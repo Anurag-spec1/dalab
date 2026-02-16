@@ -8,7 +8,7 @@ df=pd.read_csv(r"C:\Users\anura\Downloads\income.csv")
 model=KNeighborsClassifier(n_neighbors=3)
 model
 
-x = df.drop(columns=["Designation"])
+x = df.drop(columns=["Name", "Designation"])
 y = df["Designation"]
 
 print(x.info())
@@ -19,3 +19,8 @@ print(x_train.shape)
 print(x_test.shape)
 print(y_train.shape)
 print(y_test.shape)
+
+model.fit(x_train,y_train)
+
+
+print(model.predict([[30, 130000]]))
